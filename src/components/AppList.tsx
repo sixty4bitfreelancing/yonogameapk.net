@@ -95,22 +95,10 @@ function AppRow({ app, eager, rating }: { app: AppRecord; eager: boolean; rating
           <span className="sr-only">View details for {app.name}</span>
         </Link>
       </div>
-      {app.downloadUrl ? (
-        <a
-          href={app.downloadUrl}
-          target="_blank"
-          rel={app.downloadIsAffiliate ? "sponsored noopener noreferrer" : "noopener noreferrer"}
-          className={downloadButton}
-        >
-          <DownloadIcon />
-          Download<span className="sr-only"> {app.name} APK (opens in a new tab)</span>
-        </a>
-      ) : (
-        <Link href={`${href}#download`} prefetch={false} className={downloadButton}>
-          <DownloadIcon />
-          Download<span className="sr-only"> {app.name} APK</span>
-        </Link>
-      )}
+      <Link href={href} prefetch={false} className={downloadButton}>
+        <DownloadIcon />
+        Download<span className="sr-only"> {app.name} APK</span>
+      </Link>
     </article>
   );
 }

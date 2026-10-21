@@ -35,7 +35,7 @@ const groups: { title: string; fields: [StatKey, string][] }[] = [
 ];
 
 /** Our general device recommendation for Yono games, shown where an app has no published requirement of its own. */
-const RECOMMENDED_DEVICE: Partial<Record<StatKey, string>> = {
+export const RECOMMENDED_DEVICE: Partial<Record<StatKey, string>> = {
   os: "Android 5.0 or higher",
   ram: "2 GB",
   storage: "100 MB free",

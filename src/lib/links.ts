@@ -8,13 +8,15 @@
  */
 
 function httpUrl(name: string): string | null {
-  const value = process.env[name]?.trim();
-  if (!value) return null;
+  const raw = process.env[name]?.trim();
+  if (!raw) return null;
+  // Accept a bare domain such as "example.com/download" by assuming https.
+  const value = /^[a-z][a-z0-9+.-]*:/i.test(raw) ? raw : `https://${raw.replace(/^\/+/, "")}`;
   let url: URL;
   try {
     url = new URL(value);
   } catch {
-    throw new Error(`${name} must be a full http(s) URL, got "${value}"`);
+    throw new Error(`${name} must be a full http(s) URL, got "${raw}"`);
   }
   if (url.protocol !== "https:" && url.protocol !== "http:") {
     throw new Error(`${name} must start with https:// or http://, got "${value}"`);

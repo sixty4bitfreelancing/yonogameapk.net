@@ -1,4 +1,6 @@
+import { appPageUpdated } from "@/content/copy";
 import type { AppRecord } from "@/data/types";
+import { RECOMMENDED_DEVICE } from "./AppQuickStats";
 import { formatDate, hostname } from "@/lib/format";
 import type { VisitorRating } from "@/lib/jsonld";
 import { AppIcon } from "./AppIcon";
@@ -8,9 +10,9 @@ import { RatingWidget } from "./RatingWidget";
 export function DownloadCard({ app, rating }: { app: AppRecord; rating: VisitorRating | null }) {
   const details: [string, string][] = [
     ["APK size", app.stats.apkSize?.value ?? "Not confirmed"],
-    ["Version", app.version ?? "Not confirmed"],
-    ["Android", app.stats.os?.value ?? "Not confirmed"],
-    ["App updated", app.appUpdate ? formatDate(app.appUpdate.date) : "Not confirmed"],
+    ["Downloads", app.stats.downloads?.value ?? "Not confirmed"],
+    ["Android", app.stats.os?.value ?? RECOMMENDED_DEVICE.os?.replace(/^Android /, "") ?? "Not confirmed"],
+    ["Last updated", formatDate(app.appUpdate?.date ?? appPageUpdated(app))],
   ];
   const downloadCheckedAt = app.provenance.downloadUrl?.checkedAt ?? null;
   const rel = app.downloadIsAffiliate ? "sponsored noopener noreferrer" : "noopener noreferrer";
