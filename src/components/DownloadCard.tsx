@@ -14,7 +14,6 @@ export function DownloadCard({ app, rating }: { app: AppRecord; rating: VisitorR
     ["Android", app.stats.os?.value ?? RECOMMENDED_DEVICE.os?.replace(/^Android /, "") ?? "Not confirmed"],
     ["Last updated", formatDate(app.appUpdate?.date ?? appPageUpdated(app))],
   ];
-  const downloadCheckedAt = app.provenance.downloadUrl?.checkedAt ?? null;
   const rel = app.downloadIsAffiliate ? "sponsored noopener noreferrer" : "noopener noreferrer";
 
   return (
@@ -65,11 +64,9 @@ export function DownloadCard({ app, rating }: { app: AppRecord; rating: VisitorR
             >
               Download {app.name} APK<span className="sr-only"> (opens {hostname(app.downloadUrl)} in a new tab)</span>
             </a>
-            <p className="mt-2 text-xs text-gray-600">
-              Opens {hostname(app.downloadUrl)}. We don’t host the file.{" "}
-              {downloadCheckedAt ? `Link checked ${formatDate(downloadCheckedAt)}.` : "This link hasn’t been checked yet."}
-              {app.downloadIsAffiliate ? " Affiliate link: we may earn a commission." : ""}
-            </p>
+            {app.downloadIsAffiliate ? (
+              <p className="mt-2 text-xs text-gray-600">Affiliate link: we may earn a commission.</p>
+            ) : null}
           </>
         ) : (
           <>
