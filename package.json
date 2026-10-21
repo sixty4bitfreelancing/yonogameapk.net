@@ -1,0 +1,48 @@
+{
+  "name": "yonogameapk-net",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "import:collection": "python scripts/import_collection.py",
+    "brand:assets": "python scripts/generate_brand_assets.py",
+    "reports": "node scripts/reports.mjs",
+    "import:bonuses": "python scripts/import_bonuses.py",
+    "images:placeholders": "python scripts/image_placeholders.py",
+    "check:site": "node --disable-warning=ExperimentalWarning --import ./scripts/lib/register-ts.mjs scripts/check-site.mjs",
+    "indexnow": "node --disable-warning=ExperimentalWarning --import ./scripts/lib/register-ts.mjs scripts/indexnow.mjs",
+    "indexnow:dry-run": "npm run indexnow -- --all",
+    "indexnow:initial": "npm run indexnow -- --all --submit",
+    "indexnow:changes": "npm run indexnow -- --changes",
+    "test:indexnow": "node --disable-warning=ExperimentalWarning --import ./scripts/lib/register-ts.mjs scripts/test-indexnow.mjs"
+  },
+  "browserslist": [
+    "chrome >= 80",
+    "and_chr >= 80",
+    "edge >= 80",
+    "firefox >= 80",
+    "safari >= 14",
+    "ios_saf >= 14",
+    "samsung >= 13",
+    "opera >= 67"
+  ],
+  "dependencies": {
+    "next": "16.4.2",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@csstools/postcss-cascade-layers": "6.0.2",
+    "@tailwindcss/postcss": "4.3.3",
+    "@types/node": "^24.0.0",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "eslint": "10.13.0",
+    "eslint-config-next": "16.4.2",
+    "tailwindcss": "4.3.3",
+    "typescript": "6.0.3"
+  }
+}

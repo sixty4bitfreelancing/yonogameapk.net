@@ -1,0 +1,28 @@
+{
+  "$comment": "Manual reconciliation decisions applied by scripts/import_collection.py. Every rule needs a reason; the import report lists each one.",
+  "imageSet": {
+    "description": "Site-made title tiles (1254x1254 WebP) showing each app name, 'APK' and yonogameapk.net, supplied 21 October 2026. They replace the earlier third-party icon set in allnewyonoapps-images/.",
+    "altTemplate": "{name} tile illustration by Yono Game APK (not the official app icon)",
+    "provenanceNote": "Yono Game APK title tile showing the app name; not the app's official icon."
+  },
+  "displayNames": {
+    "diwa vip": { "name": "Diwa VIP", "reason": "Source label is all lower case; casing normalised for readability." },
+    "rani slots apk": { "name": "Rani Slots APK", "reason": "Source label is all lower case; casing normalised for readability." },
+    "game rummy apk": { "name": "Game Rummy APK", "reason": "Source label is all lower case; casing normalised for readability." },
+    "S vip download": { "name": "S VIP Download", "reason": "Casing normalised for readability." }
+  },
+  "aliases": {
+    "MOM Bet": {
+      "aliases": ["MQM Bet"],
+      "reason": "The DOCX and the current tile say 'MOM Bet'; the earlier third-party icon (allnewyonoapps-images/MQM Bet.webp) read 'MQM BET'. Kept as a searchable alias until the real name is confirmed."
+    }
+  },
+  "imageOverrides": {},
+  "rejectedImages": {},
+  "utilityAssets": {
+    "2111645.webp": "Tile for the document's unresolved numeric record 2111645, which has no app entry."
+  },
+  "excludedCategories": {
+    "collection": "Directory or collection label rather than the name of one app; kept in the inventory but not listed in the public directory."
+  }
+}

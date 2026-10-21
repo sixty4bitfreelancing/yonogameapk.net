@@ -1,0 +1,105 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  overflow-wrap: break-word;
+}
+
+a,
+button,
+summary,
+select,
+input,
+label {
+  touch-action: manipulation;
+}
+
+/* Below 16px, iOS Safari zooms the page when a field is focused. */
+@media (max-width: 639.98px) {
+  input,
+  select,
+  textarea {
+    font-size: 16px;
+  }
+}
+
+/* Off-screen cards skip layout and paint until scrolled near; the main win on low-end phones. */
+.card-deferred {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 96px;
+}
+
+.row-deferred {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 104px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-blue-700);
+  outline-offset: 2px;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+@layer components {
+  .prose-basic {
+    color: var(--color-gray-800);
+    line-height: 1.7;
+  }
+  .prose-basic > * + * {
+    margin-top: 1rem;
+  }
+  .prose-basic h2 {
+    margin-top: 2.25rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.35;
+    color: var(--color-gray-900);
+  }
+  .prose-basic h3 {
+    margin-top: 1.5rem;
+    font-weight: 600;
+    color: var(--color-gray-900);
+  }
+  .prose-basic ul {
+    list-style: disc;
+    padding-left: 1.25rem;
+  }
+  .prose-basic ol {
+    list-style: decimal;
+    padding-left: 1.25rem;
+  }
+  .prose-basic li + li {
+    margin-top: 0.375rem;
+  }
+  .prose-basic a {
+    color: var(--color-blue-700);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+  .prose-basic strong {
+    font-weight: 600;
+    color: var(--color-gray-900);
+  }
+}

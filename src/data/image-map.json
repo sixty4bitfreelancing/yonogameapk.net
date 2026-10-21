@@ -1,0 +1,810 @@
+{
+  "101z-app": {
+    "sourceFile": "101Z App.webp",
+    "sourceSha256": "5cc049bb4777c2b00529c2bd206d11530153997f70ac776eeb86650c59e6d4cf",
+    "output": "/images/apps/101z-app-bd472a7f.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "567-slots": {
+    "sourceFile": "567 Slots.webp",
+    "sourceSha256": "a3a1595f6cc08faa0858c2bff8e959867153e1c8d950d0747157c14b25a3629a",
+    "output": "/images/apps/567-slots-07697e5f.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "777-game": {
+    "sourceFile": "777 Game.webp",
+    "sourceSha256": "9f78de815e9dddf4002ac66ed36bdafbd885a003b79987b8a39c7f9895de538b",
+    "output": "/images/apps/777-game-142ec6ab.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "789-jackpot": {
+    "sourceFile": "789 Jackpot.webp",
+    "sourceSha256": "9a837ce9dd8b88cefc5e6af39d8b87167a3cab33bef66b8be79b8c07a7a95cec",
+    "output": "/images/apps/789-jackpot-43a9e9da.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "abc-rummy": {
+    "sourceFile": "ABC Rummy.webp",
+    "sourceSha256": "274c1de57ef1c75af13996d1b167cafd5440bef10ba9c89455afe9787bfc0818",
+    "output": "/images/apps/abc-rummy-27b8fcc9.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "bet213": {
+    "sourceFile": "Bet213.webp",
+    "sourceSha256": "a993a97b1fc3f440a4b6a35b9441f43eee62a81757b4382e728cce154772fbf1",
+    "output": "/images/apps/bet213-e6a7e36c.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "big-daddy-game": {
+    "sourceFile": "Big-Daddy-Game.webp",
+    "sourceSha256": "17307cf8e07cabe32a0d12bed2a7c91ff4ce4c8eb34c062a42ff06b5358df866",
+    "output": "/images/apps/big-daddy-game-3cb475cf.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "bingo-101": {
+    "sourceFile": "Bingo 101.webp",
+    "sourceSha256": "fb63e26c249f0646c7337b455c1bf02c8335d1ec5d1d0b8aed3dd90f9df40e7c",
+    "output": "/images/apps/bingo-101-9cc7efc8.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "boss-rummy": {
+    "sourceFile": "Boss Rummy.webp",
+    "sourceSha256": "994fcde3e16784a6c1a1d9d430fad5280a2100acc1d04d2fbcb0e1e7a386b6d2",
+    "output": "/images/apps/boss-rummy-d828e411.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "club-inr": {
+    "sourceFile": "Club INR.webp",
+    "sourceSha256": "2760aec615eb7a4b21126a495e61c5360eafe761f3e1ff3bf79fc2728a24a2ac",
+    "output": "/images/apps/club-inr-14854b47.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "dhan-game": {
+    "sourceFile": "Dhan-Game.webp",
+    "sourceSha256": "b2c2ac2684217ba827f97dbd66800b9fc8da0453b7ba4ac850c7886822d71172",
+    "output": "/images/apps/dhan-game-3e0a1e64.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "diwa-777": {
+    "sourceFile": "DIWA 777.webp",
+    "sourceSha256": "b69ae4d0078374bbf624055c79b4c0eb9c308e88822895ad5b42d31c1a4ebacc",
+    "output": "/images/apps/diwa-777-11094765.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "diwa-ace": {
+    "sourceFile": "Diwa-Ace.webp",
+    "sourceSha256": "00ef2cb5d9ec6b62d5ef158fc4290e0fbd073e6ea707857d2220a19a255659d2",
+    "output": "/images/apps/diwa-ace-98560569.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "diwa-game": {
+    "sourceFile": "Diwa-Game.webp",
+    "sourceSha256": "aebf19eff8992abdffa4ba0688a667176c5efbb307b23cc1a92792b8974a26e4",
+    "output": "/images/apps/diwa-game-8e0da8fc.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "diwa-king": {
+    "sourceFile": "Diwa-King.webp",
+    "sourceSha256": "604514df42c1422ab01f36834b992ce8ea6a71611331c1b42e26f55fe2c67835",
+    "output": "/images/apps/diwa-king-8d2b2bb7.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "diwa-lucky": {
+    "sourceFile": "Diwa-Lucky.webp",
+    "sourceSha256": "432389a125357c05cc751990b4d96f692c511baa0789f8f598f1781b2c86edfd",
+    "output": "/images/apps/diwa-lucky-a3daa3ed.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "diwa-ok": {
+    "sourceFile": "Diwa-Ok.webp",
+    "sourceSha256": "7a511f0269549cc5b53ec9ac1b5ad08cc2cb1d23072de0c125487556dabb3ad1",
+    "output": "/images/apps/diwa-ok-662b00a1.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "diwa-play": {
+    "sourceFile": "Diwa-Play.webp",
+    "sourceSha256": "5c8f4d0424454b403ef91d0f5c2fa6c102fe364a42eded4c34a6ff00e28182b3",
+    "output": "/images/apps/diwa-play-b8b04c24.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "diwa-rummy": {
+    "sourceFile": "Diwa-Rummy.webp",
+    "sourceSha256": "d36a17a3ed580ba8021f23e33527a0c2e64e641f2ef01ca71f83e0af461625fd",
+    "output": "/images/apps/diwa-rummy-b70d5900.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "diwa-slots": {
+    "sourceFile": "Diwa-Slots.webp",
+    "sourceSha256": "935e5e6ae73cffa8373b2b042a1c275f0eef205a35cbc576f346b787e8d4ced1",
+    "output": "/images/apps/diwa-slots-e02cbd46.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "diwa-spin": {
+    "sourceFile": "Diwa-Spin.webp",
+    "sourceSha256": "db1c69df3e8192db3848975f99d9c9c69df40a8e7714656c1a1ae37f573ba684",
+    "output": "/images/apps/diwa-spin-3c115739.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "diwa-top": {
+    "sourceFile": "Diwa-Top.webp",
+    "sourceSha256": "234fac53be039fd4725a327bf56b855ad1a140bfcfad1e1c2e7dd693accc8344",
+    "output": "/images/apps/diwa-top-283d0552.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "diwa-vip": {
+    "sourceFile": "diwa-vip.webp",
+    "sourceSha256": "1506e5f1cafd8f14842537411d1b19b1a3d0e1803299e584f03db703456f5c79",
+    "output": "/images/apps/diwa-vip-22299a49.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "diwa-win": {
+    "sourceFile": "Diwa-Win.webp",
+    "sourceSha256": "f35208d5d28ab63275310b8abb21b675b7f0d5038987f394905ee270ed34045e",
+    "output": "/images/apps/diwa-win-ceab9e12.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "diwa-wow": {
+    "sourceFile": "Diwa-Wow.webp",
+    "sourceSha256": "9251561298396b78cc08f2622397739eda55222357dd176c598d729f3a1ea9be",
+    "output": "/images/apps/diwa-wow-c227eead.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "diwa-x": {
+    "sourceFile": "Diwa-X.webp",
+    "sourceSha256": "07b8bf9eef24430ecdd1f88d39f90c874474e7e6ff0f0c69c71753e8c1cd29af",
+    "output": "/images/apps/diwa-x-7a41ec87.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "en-365-yono": {
+    "sourceFile": "EN-365-YONO.webp",
+    "sourceSha256": "c81b7d86aa19f8011a53b130276aca1f31fe15523c72332e11fdb2116c65c8c3",
+    "output": "/images/apps/en-365-yono-750ab235.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "ever-777": {
+    "sourceFile": "Ever 777.webp",
+    "sourceSha256": "3bfc7302805dba43434e1999edb9e1e5b868311ce11c5659dda44e396384f4d5",
+    "output": "/images/apps/ever-777-edc3cadc.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "game-rummy-apk": {
+    "sourceFile": "game-rummy-apk.webp",
+    "sourceSha256": "fde4ba1c36b1cc2158738daca50e88b75a8657e0984753d14009be0f2b38d008",
+    "output": "/images/apps/game-rummy-apk-219e624c.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "goa-spin": {
+    "sourceFile": "Goa-Spin.webp",
+    "sourceSha256": "e8159117ee188c93182513a7ed5cb54a24f6eccc5462481bc6df2ed1e2c3299a",
+    "output": "/images/apps/goa-spin-83259ad6.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "gogo-rummy": {
+    "sourceFile": "gogorummy.webp",
+    "sourceSha256": "2739c7cf415b4b61c2ca13c366fa8a99d9b266c95073805036122dd3453089ed",
+    "output": "/images/apps/gogo-rummy-368c6041.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "gold-rummy": {
+    "sourceFile": "Gold-Rummy.webp",
+    "sourceSha256": "c48c5c98bada46e6f7ed72f7db51346156b05a9e19869f4a54e77752fe94a0f4",
+    "output": "/images/apps/gold-rummy-d1db06cd.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "good-slots": {
+    "sourceFile": "Good Slots.webp",
+    "sourceSha256": "4e2e3428f6e74ef16b6ff6dff24c429e9af16a632fd5485ce490c79a2cb0726f",
+    "output": "/images/apps/good-slots-30f092e0.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "hi-rummy": {
+    "sourceFile": "Hi Rummy.webp",
+    "sourceSha256": "537a2a5052045f97c53c08931c58c1d38fbec7e2edf992b0eac7ff3f10580a21",
+    "output": "/images/apps/hi-rummy-f679eb15.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "hindi-777": {
+    "sourceFile": "Hindi 777.webp",
+    "sourceSha256": "6ddc6738d89a474d034df0013ad38592ff6be92170bfa0b6dd9c65c5add9e67d",
+    "output": "/images/apps/hindi-777-0b7abb01.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "ind-club": {
+    "sourceFile": "IND Club.webp",
+    "sourceSha256": "219c3c3cea91ee8da59cc365f94cb5c16fe259c76bc4deb475eeca69e806ab6f",
+    "output": "/images/apps/ind-club-9513dad1.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "ind-slots": {
+    "sourceFile": "IND Slots.webp",
+    "sourceSha256": "719bdf156e537ca9d64e10a17ed4c59f02f7d6af4ed46cbd22b6e2d87f300be1",
+    "output": "/images/apps/ind-slots-f8a1dff0.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "ind-bingo": {
+    "sourceFile": "indbingo.webp",
+    "sourceSha256": "f69811b3c9026c71d9b5690d7e64dbca7b83bbd995c6cc53e1a1b8c7614ab1a5",
+    "output": "/images/apps/ind-bingo-b77e131f.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "ind-rummy": {
+    "sourceFile": "IND Rummy.webp",
+    "sourceSha256": "18b6f32531920b521eb05dc724821cb0fa8d65622effb7ec375e1915bb988b34",
+    "output": "/images/apps/ind-rummy-98ba5161.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "inr-rummy": {
+    "sourceFile": "INR Rummy.webp",
+    "sourceSha256": "117e19a8c125a9fbfa8bbf053112c0a7eca3300a2e2c99ee9d16e82d09b54f64",
+    "output": "/images/apps/inr-rummy-868be26a.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "inr-slots": {
+    "sourceFile": "INR-SLOTS.webp",
+    "sourceSha256": "271081ae0e62e1aa6b314a959c7447773d8303aa3e1d3b70b64ef292e2618746",
+    "output": "/images/apps/inr-slots-743cd0c1.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "jaiho-777": {
+    "sourceFile": "Jaiho 777.webp",
+    "sourceSha256": "9ecc1535e262c7d36cc1e74c6dc06795639327881b55796b34e36f058646d26b",
+    "output": "/images/apps/jaiho-777-9aa18bf4.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "jaiho-arcade": {
+    "sourceFile": "JaiHo Arcade.webp",
+    "sourceSha256": "c4e603930ec49c365944e6773480195141f02c83bad346eed4604988c5d14902",
+    "output": "/images/apps/jaiho-arcade-ac2fe93f.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "jaiho-rummy": {
+    "sourceFile": "JaiHo Rummy.webp",
+    "sourceSha256": "8c754fc74f8a5671bff5e598cc5c3df4136dd5a45d7d7c40ea48f4c613e58814",
+    "output": "/images/apps/jaiho-rummy-6af404d7.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "jaiho-slots": {
+    "sourceFile": "Jaiho Slots.webp",
+    "sourceSha256": "70f5e6dfd519345b0acb7d6bfa4e8ff2426bcf8555533c202eb33e5e2426add7",
+    "output": "/images/apps/jaiho-slots-f5645761.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "jaiho-spin": {
+    "sourceFile": "JaiHo Spin.webp",
+    "sourceSha256": "11379259fb25c0b9c8ff0acec6932cce1a22973a50d7d88d649e2dd4ba125234",
+    "output": "/images/apps/jaiho-spin-0ae6a404.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "jaiho-win": {
+    "sourceFile": "Jaiho Win.webp",
+    "sourceSha256": "cb437fbb6442c2de6ab7a3d3617811eceb60c044578c25f298e703056307b4f3",
+    "output": "/images/apps/jaiho-win-b62c6fc0.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "jaiho-91-apk": {
+    "sourceFile": "Jaiho-91-APK.webp",
+    "sourceSha256": "437e8c982bf4649875990934fbeaeb730279bdd3bf2bb6e9211212caf0ae117c",
+    "output": "/images/apps/jaiho-91-apk-311ea1fe.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "jaiho-777-vip": {
+    "sourceFile": "Jaiho-777-VIP.webp",
+    "sourceSha256": "60def55848fb3e5e395b5d9e24057650e0ef6d8d622bf606226bc102db15d511",
+    "output": "/images/apps/jaiho-777-vip-cd155a88.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "jaiho-play": {
+    "sourceFile": "Jaiho-Play.webp",
+    "sourceSha256": "395737bba3e00d23291febc166dfff64895c6d8013b5e5272f55ac731e72b6a8",
+    "output": "/images/apps/jaiho-play-3c244521.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "jeet-spin": {
+    "sourceFile": "Jeet-Spin.webp",
+    "sourceSha256": "3908a9934b574edd5779fd85e40d3234237f17c7d9cdc21cf42542a2bbdf7c17",
+    "output": "/images/apps/jeet-spin-e9ba8ad2.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "joy-rummy": {
+    "sourceFile": "Joy Rummy.webp",
+    "sourceSha256": "e355d6e9360628bece8978e620418cbc1c3586ee450018398cbc76d44aeadde8",
+    "output": "/images/apps/joy-rummy-83fe190c.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "love-rummy": {
+    "sourceFile": "Love Rummy.webp",
+    "sourceSha256": "3e5b2481aa266839d622247f7c27d2a56449a85c0adf9265f96916567ed3ef82",
+    "output": "/images/apps/love-rummy-a625c621.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "maha-games": {
+    "sourceFile": "Maha Games.webp",
+    "sourceSha256": "6d034693fac441c551a87eb62fad24ee1a5b49a51f156b762e10e49afe4df867",
+    "output": "/images/apps/maha-games-ae2e7c40.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "max-rummy": {
+    "sourceFile": "Max Rummy.webp",
+    "sourceSha256": "f91d3b9ce8c6b8d2527960b91b6e6b0e59540ffc782ce2072a5202b77452f00f",
+    "output": "/images/apps/max-rummy-558149e6.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "mbm-bet": {
+    "sourceFile": "MBM Bet.webp",
+    "sourceSha256": "bd01c37fbd78b603323bcb9a8cf174635cf01041bea6e873d62721030ec57214",
+    "output": "/images/apps/mbm-bet-24f31321.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "mdm-bet-app": {
+    "sourceFile": "MDM-Bet-App-Logo.webp",
+    "sourceSha256": "723b072e45d6b5c1d27273cebdbe54bfda07a4815c4da8a39d237b10b01e8815",
+    "output": "/images/apps/mdm-bet-app-9c0d376f.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "mkm-bet": {
+    "sourceFile": "MkM Bet.webp",
+    "sourceSha256": "778743b3cded70206a48f4ab51f04a0b15c40a28b78a6504b7076d3e7f65c8c4",
+    "output": "/images/apps/mkm-bet-ceddc4be.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "money-rummy": {
+    "sourceFile": "Money-Rummy.webp",
+    "sourceSha256": "bb9e7f589b98cb96d19e1bb267efba112ba0de387c446a8fe83fa8d4c58837b0",
+    "output": "/images/apps/money-rummy-be766f00.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "mom-bet": {
+    "sourceFile": "MOM Bet.webp",
+    "sourceSha256": "e1eb243d8a1c9902662436e8f76f161a4160ffaf7d847afeac8dc0a33af81e5b",
+    "output": "/images/apps/mom-bet-c015cc52.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "mwm-bet-apk": {
+    "sourceFile": "Mwm-Bet-APK.webp",
+    "sourceSha256": "57b0a63415c50b2601f644597698a530474b6fb783dfcfb50a3455d6c92f784d",
+    "output": "/images/apps/mwm-bet-apk-a1a167be.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "my-777-apk": {
+    "sourceFile": "MY-777-APK.webp",
+    "sourceSha256": "bd90dbd33b2dcaabefb3e6375c98ac400f7cae9599e515796a3ee82f7e43a141",
+    "output": "/images/apps/my-777-apk-a28b3749.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "neta-vip": {
+    "sourceFile": "Neta VIP.webp",
+    "sourceSha256": "cfbaca455e333205c368676575afadcf79cd172960118f61272cb92fa2297423",
+    "output": "/images/apps/neta-vip-cf3a392a.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "new-yono-app": {
+    "sourceFile": "New-Yono-App.webp",
+    "sourceSha256": "45ca595602edb675ce61594672092fb2457bfa562f383705dac7dad30131448d",
+    "output": "/images/apps/new-yono-app-87a41258.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "ok-rummy": {
+    "sourceFile": "OK Rummy.webp",
+    "sourceSha256": "543156fdf84c0651cd8214b42f8be1ad51f9625a6a7dc1bf5c34a407cab076fc",
+    "output": "/images/apps/ok-rummy-3aa048b8.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "rajaluck": {
+    "sourceFile": "RajaLuck.webp",
+    "sourceSha256": "538f653c2f69f0010c8ccf0313e013d0776386026b939a0675994d2a31304328",
+    "output": "/images/apps/rajaluck-0d514e52.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "rani-slots-apk": {
+    "sourceFile": "rani-slots-apk.webp",
+    "sourceSha256": "98ba5dfb5aa28133162358a50a2d963ab4481317d6c86230c1046bf59f70fd75",
+    "output": "/images/apps/rani-slots-apk-d7ec4904.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "rumble-rummy": {
+    "sourceFile": "Rumble Rummy.webp",
+    "sourceSha256": "b4930ee3f1735d92adaa3d52d2bc31eef4171c71a7623d921ff93efe35e439d3",
+    "output": "/images/apps/rumble-rummy-2ea70b8f.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "rummy-77": {
+    "sourceFile": "Rummy 77.webp",
+    "sourceSha256": "a78364b3acb265d2af30eb95a17af827bb842aa12ab749de492da1e2caa06f9e",
+    "output": "/images/apps/rummy-77-dd71b220.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "rummy-91": {
+    "sourceFile": "Rummy 91.webp",
+    "sourceSha256": "7d45dac0bb3a2f482093f82caa356bc1bd4d6c09e25af5c8a7fabfbf0cd9cb5b",
+    "output": "/images/apps/rummy-91-707c2dcb.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "rummy-365": {
+    "sourceFile": "Rummy 365.webp",
+    "sourceSha256": "8003cc077ea02ceb8b5439ef3948236b4e9cccdf74c00b98dba376309d4a232b",
+    "output": "/images/apps/rummy-365-4e82d893.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "rummy-888": {
+    "sourceFile": "Rummy 888.webp",
+    "sourceSha256": "458091360695c58df162cd7146b9d31667e19f4103f6081ab9e6209636e5cdbc",
+    "output": "/images/apps/rummy-888-fca9afdd.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "rummy-ludo": {
+    "sourceFile": "Rummy Ludo.webp",
+    "sourceSha256": "0e8b8f33e100de98e2af861034d4183990593b67232c7d0055ee3e9defbaf3f1",
+    "output": "/images/apps/rummy-ludo-656fe418.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "rummy-app": {
+    "sourceFile": "Rummy-App.webp",
+    "sourceSha256": "699cea175331cf294339bafb8cd0882bb601d7509f099429934433c93cf81a42",
+    "output": "/images/apps/rummy-app-8c908a63.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "rummy-yono": {
+    "sourceFile": "Rummy-Yono.webp",
+    "sourceSha256": "d11ac93ffae03607385b3759b56cb81ddaed35339e109bf18de8537f2a5061f6",
+    "output": "/images/apps/rummy-yono-74b2d033.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "rummy-zip": {
+    "sourceFile": "Rummy-Zip.webp",
+    "sourceSha256": "eabc11c058294b384ccce52d5ae03d789a7be20ffc83b8f990952e82b5d9c286",
+    "output": "/images/apps/rummy-zip-776ee0fc.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "saga-slots": {
+    "sourceFile": "Saga Slots.webp",
+    "sourceSha256": "f5f3ca355574f2d36f3a49e439db3c8ad259bc5ec120d13076f6043fec717021",
+    "output": "/images/apps/saga-slots-19322db4.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "share-slots": {
+    "sourceFile": "Share Slots.webp",
+    "sourceSha256": "e79652cbc93114e3774b94ea4387f701055a4d2e1ae61e10fe96220be1ffcddd",
+    "output": "/images/apps/share-slots-ccf14b22.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "slots-spin": {
+    "sourceFile": "Slots Spin.webp",
+    "sourceSha256": "3cf0e249444f7dd2f18080ad3a97e94ffbba96d2a29948e55a29b345b1f3291e",
+    "output": "/images/apps/slots-spin-c8f9f5ec.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "slots-winner": {
+    "sourceFile": "Slots Winner.webp",
+    "sourceSha256": "d6741de8667d6ce2ac29553a86781fa5bd959c6d07d53c316e001f3357b7edaf",
+    "output": "/images/apps/slots-winner-e66869d9.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "spin-777": {
+    "sourceFile": "Spin 777.webp",
+    "sourceSha256": "239390173367757cef84947527229ccc6fddefb4d2d6b4b8440269f1d0486cf8",
+    "output": "/images/apps/spin-777-02ba5ede.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "spin-crush": {
+    "sourceFile": "Spin Crush.webp",
+    "sourceSha256": "78390b3f6189ffd4e890f6d3f74bf0dcd4779378bb840a30f735448676a64b11",
+    "output": "/images/apps/spin-crush-1cd1d5ff.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "spin-gold": {
+    "sourceFile": "Spin Gold.webp",
+    "sourceSha256": "1064897c46bb1db77fe874846e1892527be6a68cfbdcd9ac0fd10379ba8d771c",
+    "output": "/images/apps/spin-gold-a502192c.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "spin-lucky": {
+    "sourceFile": "Spin Lucky.webp",
+    "sourceSha256": "0085d6dcc009d894b20c4459d592b569617e0b3b709165fa4221ab6b831740d7",
+    "output": "/images/apps/spin-lucky-1caf8e6c.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "spin-winner": {
+    "sourceFile": "Spin Winner.webp",
+    "sourceSha256": "ed3a9dac0541a9c047102e5b445b68ac77c69eb4939a05c64c2ec2bd9171fd2e",
+    "output": "/images/apps/spin-winner-61ecf87e.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "spin101": {
+    "sourceFile": "Spin101.webp",
+    "sourceSha256": "a801cb35dd179c54c92c3108aa40e4ebff6bc8f5343cd978eba316431bea0a01",
+    "output": "/images/apps/spin101-dd51cf47.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "s-vip-download": {
+    "sourceFile": "S-vip-download.webp",
+    "sourceSha256": "511227b467e2797221ce5e4b97a075e2483c85953385e07eac19152a9c4ee658",
+    "output": "/images/apps/s-vip-download-27ae14f3.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "top-rummy": {
+    "sourceFile": "TOP Rummy.webp",
+    "sourceSha256": "fc17b8ab94d7fc7c3b82862370bf4ec93390fc8f6188d684da26ab1f6cef0e02",
+    "output": "/images/apps/top-rummy-eda6fdc1.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "win-rummy": {
+    "sourceFile": "Win-Rummy.webp",
+    "sourceSha256": "404d53ba87b5372d53864e153e5948ba007eb6c60f7ec449482f21a0c6a240a5",
+    "output": "/images/apps/win-rummy-17defcbf.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "winzo-rummy": {
+    "sourceFile": "WinzoRummy.webp",
+    "sourceSha256": "f33c8cf1d994a1c5ce5bf202175c252f7d2f4e0e9b70338ec690b10d85dd15a9",
+    "output": "/images/apps/winzo-rummy-0382015a.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "yes-spin": {
+    "sourceFile": "Yes Spin.webp",
+    "sourceSha256": "e7381d82e99a621dfa4a130fbd0898ca93a4a926755cfd0c5512f782fb81f23f",
+    "output": "/images/apps/yes-spin-eebcb2a5.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "yn777": {
+    "sourceFile": "Yn777.webp",
+    "sourceSha256": "366217e0cffe393fc38300e6c2d48e30f918ab3e12bfb1f968425adfe899d878",
+    "output": "/images/apps/yn777-1ba1e90a.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "yono-777": {
+    "sourceFile": "Yono 777.webp",
+    "sourceSha256": "c1de2786d6c331473f474cebd976c4facce1f4d1da3c966b3fb5dffdcaa07fef",
+    "output": "/images/apps/yono-777-6433aabb.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "yono-arcade": {
+    "sourceFile": "Yono Arcade.webp",
+    "sourceSha256": "265b6e0672099b5eff0492bd291613169c392f879ccc9b7048c28dab4aa71cd7",
+    "output": "/images/apps/yono-arcade-b1f7101e.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "yono-game": {
+    "sourceFile": "Yono Game.webp",
+    "sourceSha256": "338ce4672b815da1ce4e93fe90fc9a44a3bd69a7a6142089ca855e75f5fba84f",
+    "output": "/images/apps/yono-game-5159e673.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "yono-games": {
+    "sourceFile": "Yono Games.webp",
+    "sourceSha256": "2afb08edcce54e63a177016f43ebbb12f7a6f967cdb0f75819fc74e9fd817b55",
+    "output": "/images/apps/yono-games-c286f530.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "yono-rummy": {
+    "sourceFile": "Yono Rummy.webp",
+    "sourceSha256": "f5bf05ac62c2806a124bff66a5d7fc86b67420e2a372452a81b88b5a7cedc08f",
+    "output": "/images/apps/yono-rummy-4c76ee30.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "yono-slots": {
+    "sourceFile": "Yono Slots.webp",
+    "sourceSha256": "1a3be5351d278586dc124a35776f3f9c59ab6459038a7d6392e9ddb3bc10039c",
+    "output": "/images/apps/yono-slots-49267bf6.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "yono-vip": {
+    "sourceFile": "Yono VIP.webp",
+    "sourceSha256": "e914ece0cffd4481d54bd8996269148753b34667ebfc68c23526b5cd0cfc2805",
+    "output": "/images/apps/yono-vip-9e0075ab.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "yono-app": {
+    "sourceFile": "Yono-App.webp",
+    "sourceSha256": "40af1ef711fdd194376185b7c2b2f7079c473ac04d59ccd773a075ad4ae86841",
+    "output": "/images/apps/yono-app-fff145dc.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  },
+  "yono-maha-games": {
+    "sourceFile": "Yono-Maha-Games.webp",
+    "sourceSha256": "f681258fde1631b6b80139360ba657d4c1d955fd2c12bcb9534579bf7a31585e",
+    "output": "/images/apps/yono-maha-games-a99cf00c.webp",
+    "width": 256,
+    "height": 256,
+    "matchMethod": "normalised name"
+  }
+}

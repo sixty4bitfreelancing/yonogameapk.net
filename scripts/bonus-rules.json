@@ -1,0 +1,15 @@
+{
+  "$comment": "Spreadsheet names that don't match a directory app after normalisation (lower case, letters and digits only). Each mapping needs a reason.",
+  "nameMap": {
+    "Game Rummy": { "slug": "game-rummy-apk", "reason": "Directory name carries an 'APK' suffix." },
+    "Jaiho 91": { "slug": "jaiho-91-apk", "reason": "Directory name carries an 'APK' suffix." },
+    "Rani Slots": { "slug": "rani-slots-apk", "reason": "Directory name carries an 'APK' suffix." },
+    "MWM Bet": { "slug": "mwm-bet-apk", "reason": "Directory name carries an 'APK' suffix." },
+    "My777": { "slug": "my-777-apk", "reason": "Directory name carries an 'APK' suffix." },
+    "MDM Bet": { "slug": "mdm-bet-app", "reason": "Directory name carries an 'App' suffix." },
+    "EN 365": { "slug": "en-365-yono", "reason": "Directory name carries a 'YONO' suffix; tile artwork reads 'EN 365'." }
+  },
+  "skip": {
+    "Svip 777": "Possibly 'S VIP Download' (earlier icon read 'SVIP 777'), but not confirmed; left unmatched."
+  }
+}
