@@ -51,7 +51,7 @@ export function Footer() {
           <p>
             {directoryStats.liveAffiliateLinks > 0
               ? "Some download links are affiliate links and are marked as sponsored; we may earn a commission when you use them."
-              : "This site does not host APK files and currently contains no affiliate or sponsored links."}
+              : "This site currently contains no affiliate or sponsored links."}
           </p>
         </div>
       </div>

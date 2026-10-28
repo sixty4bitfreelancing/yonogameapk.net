@@ -190,7 +190,7 @@ export function softwareApplicationNode(path: string, app: AppRecord, rating?: V
     ...(app.stats.os ? { operatingSystem: app.stats.os.value } : {}),
     ...(app.version ? { softwareVersion: app.version } : {}),
     ...(app.stats.apkSize && app.stats.apkSize.claim === "none" ? { fileSize: app.stats.apkSize.value } : {}),
-    ...(app.downloadUrl ? { downloadUrl: app.downloadUrl } : {}),
+    ...(app.downloadUrl ? { downloadUrl: absoluteUrl(app.downloadUrl) } : {}),
     ...(app.sourceUrl ? { sameAs: app.sourceUrl } : {}),
     ...(hasRating
       ? {

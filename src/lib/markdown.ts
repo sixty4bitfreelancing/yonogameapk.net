@@ -102,7 +102,7 @@ export function llmsTxt(): string {
   const lines = [
     `# ${site.name}`,
     "",
-    `> Independent directory of Yono-related gaming apps, with a guide to installing APK files on Android. ${site.name} is not run by or affiliated with any app developer or with any bank's YONO app, and it does not host APK files.`,
+    `> Independent directory of Yono-related gaming apps, with a guide to installing APK files on Android. ${site.name} is not run by or affiliated with any app developer or with any bank's YONO app.`,
     "",
     `The directory currently lists ${directoryStats.listed} apps. ${sourcesSummary()}`,
     "",

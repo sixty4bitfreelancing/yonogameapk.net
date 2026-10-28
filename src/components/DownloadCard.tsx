@@ -2,11 +2,12 @@ import { appPageUpdated } from "@/content/copy";
 import type { AppRecord } from "@/data/types";
 import { RECOMMENDED_DEVICE } from "./AppQuickStats";
 import { formatDate, hostname } from "@/lib/format";
+import { isLocalFile } from "@/lib/links";
 import type { VisitorRating } from "@/lib/jsonld";
 import { AppIcon } from "./AppIcon";
 import { RatingWidget } from "./RatingWidget";
 
-/** APK download panel. The button is live only when a real download URL has been added for the app. */
+/** APK download panel. The button uses DOWNLOAD_URL (or the app's own link); without one it shows "not available". */
 export function DownloadCard({ app, rating }: { app: AppRecord; rating: VisitorRating | null }) {
   const details: [string, string][] = [
     ["APK size", app.stats.apkSize?.value ?? "Not confirmed"],
@@ -56,14 +57,25 @@ export function DownloadCard({ app, rating }: { app: AppRecord; rating: VisitorR
       <div className="mt-4 border-t border-gray-100 pt-4">
         {app.downloadUrl ? (
           <>
-            <a
-              href={app.downloadUrl}
-              target="_blank"
-              rel={rel}
-              className="inline-flex w-full items-center justify-center rounded-lg bg-blue-700 px-5 py-3 text-base font-semibold text-white hover:bg-blue-800 sm:w-auto"
-            >
-              Download {app.name} APK<span className="sr-only"> (opens {hostname(app.downloadUrl)} in a new tab)</span>
-            </a>
+            {isLocalFile(app.downloadUrl) ? (
+              <a
+                href={app.downloadUrl}
+                download
+                rel="nofollow"
+                className="inline-flex w-full items-center justify-center rounded-lg bg-blue-700 px-5 py-3 text-base font-semibold text-white hover:bg-blue-800 sm:w-auto"
+              >
+                Download {app.name} APK
+              </a>
+            ) : (
+              <a
+                href={app.downloadUrl}
+                target="_blank"
+                rel={rel}
+                className="inline-flex w-full items-center justify-center rounded-lg bg-blue-700 px-5 py-3 text-base font-semibold text-white hover:bg-blue-800 sm:w-auto"
+              >
+                Download {app.name} APK<span className="sr-only"> (opens {hostname(app.downloadUrl)} in a new tab)</span>
+              </a>
+            )}
             {app.downloadIsAffiliate ? (
               <p className="mt-2 text-xs text-gray-600">Affiliate link: we may earn a commission.</p>
             ) : null}

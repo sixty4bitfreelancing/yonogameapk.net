@@ -42,7 +42,7 @@ export default function AboutPage() {
         <ul>
           <li>We are not the developer or operator of any app listed here, and we are not affiliated with them.</li>
           <li>We have no connection to any bank or banking app that uses the YONO name.</li>
-          <li>We don’t host APK files, take payments or run games.</li>
+          <li>We don’t take payments or run games.</li>
         </ul>
         <h2>How the directory is built</h2>
         <p>

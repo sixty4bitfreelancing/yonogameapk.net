@@ -22,6 +22,7 @@ import {
   appPageUpdated,
   appPageTitle,
   editorialize,
+  hasCustomAppMeta,
   helpGuide,
 } from "@/content/copy";
 import {
@@ -40,6 +41,7 @@ import { categories } from "@/data/categories";
 import bannerPlaceholders from "@/data/image-placeholders.generated.json";
 import { appTrail } from "@/lib/breadcrumbs";
 import { formatDate, hostname } from "@/lib/format";
+import { isLocalFile } from "@/lib/links";
 import { breadcrumbNode, faqPageNode, graph, howToNode, ids, softwareApplicationNode, webPageNode } from "@/lib/jsonld";
 import { ratingStore, ratingSummaries } from "@/lib/ratings-store";
 import { pageMetadata } from "@/lib/metadata";
@@ -61,6 +63,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return pageMetadata({
     title: appPageTitle(app),
     description: appPageDescription(app),
+    absoluteTitle: hasCustomAppMeta(app),
     path: `/apps/${app.slug}/`,
     image: app.banner
       ? { path: app.banner.src, width: app.banner.width, height: app.banner.height, alt: app.banner.alt }
@@ -317,11 +320,19 @@ export default async function AppDetailPage({ params }: Props) {
         <Section id="where-to-play" title={`Where to play and install ${name}`}>
           {app.downloadUrl ? (
             <>
-              <p>
-                {name} is played inside its own app once installed. Its download page is on an external site (
-                {hostname(app.downloadUrl)}); use the <a href="#download">download button above</a>. We don’t host the
-                APK file.
-              </p>
+              {isLocalFile(app.downloadUrl) ? (
+                <p>
+                  {name} is played inside its own app once installed. Use the{" "}
+                  <a href="#download">download button above</a> to get the APK file, then follow the Android install
+                  steps below.
+                </p>
+              ) : (
+                <p>
+                  {name} is played inside its own app once installed. Its download page is on an external site (
+                  {hostname(app.downloadUrl)}); use the <a href="#download">download button above</a>. We don’t host the
+                  APK file.
+                </p>
+              )}
             </>
           ) : (
             <>

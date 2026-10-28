@@ -75,7 +75,7 @@ const faqs: FaqItem[] = [
   {
     question: "How do I download a Yono game?",
     answer:
-      "Open the app’s page from the list above and use its Download button. A download link is added once we have confirmed the app’s official source; until then, the page explains how to find the genuine app. We don’t host APK files ourselves.",
+      "Open the app’s page from the list above and use its Download button. Tap Download next to any app in the list to get the APK, then follow the install steps for Android.",
   },
   {
     question: "How do I install a Yono game APK on Android?",
@@ -199,7 +199,7 @@ export default function HomePage() {
             {site.name} is an independent guide to Yono games. Every rummy, slots, spin, bingo and 777 app in our list has
             its own page explaining what it is, how to play, how to install it on Android, its listed bonus and withdrawal
             amounts, and what to check before you deposit. We keep the list up to date as new Yono games appear, and we
-            don’t host APK files or work for any app.
+            don’t work for any app.
           </p>
         </section>
 

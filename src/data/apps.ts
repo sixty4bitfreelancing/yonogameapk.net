@@ -56,11 +56,11 @@ function importedRating(id: string): AppRecord["externalRating"] {
 }
 
 function applyOverride(app: ImportedApp): AppRecord {
-  const sharedDownload = !app.downloadUrl && siteLinks.download;
+  const sharedDownload = Boolean(siteLinks.download);
   const base: AppRecord = {
     ...app,
-    // DOWNLOAD_URL gives every game the same Download button; an app's own downloadUrl wins.
-    downloadUrl: app.downloadUrl ?? siteLinks.download,
+    // DOWNLOAD_URL gives every game the same Download button and overrides any per-app link.
+    downloadUrl: siteLinks.download ?? app.downloadUrl,
     downloadIsAffiliate: sharedDownload ? siteLinks.downloadSponsored : false,
     stats: { ...listedStats(app.id), ...bonusStats(app.id) },
     externalRating: importedRating(app.id),

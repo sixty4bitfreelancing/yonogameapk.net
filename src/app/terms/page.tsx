@@ -33,7 +33,7 @@ export default function TermsPage() {
 
         <h2>What this site is</h2>
         <p>
-          {site.name} is an information directory. It doesn’t host, sell, distribute or operate any app or game, doesn’t
+          {site.name} is an information directory. It doesn’t sell or operate any app or game, doesn’t
           accept payments, and isn’t affiliated with the developers of the apps listed. See the{" "}
           <Link href={staticPages.disclaimer.path}>disclaimer</Link> for details.
         </p>

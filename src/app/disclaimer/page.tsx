@@ -34,10 +34,10 @@ export default function DisclaimerPage() {
           service that uses the YONO name.
         </p>
 
-        <h2>No downloads or games hosted</h2>
+        <h2>Downloads and games</h2>
         <p>
-          We don’t host APK files, run games, hold balances or process payments. Any download link on the site points
-          to an external website that we don’t control.
+          We don’t run games, hold balances or process payments. APK files offered for download are provided as-is and
+          installed at your own risk; any link to an external website points to a site we don’t control.
         </p>
 
         <h2>Accuracy of information</h2>

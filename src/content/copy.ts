@@ -10,10 +10,10 @@ import { site } from "@/lib/site";
  */
 
 export const homeCopy = {
-  title: "Yono Games: All Yono Games List & APK Download (2026)",
+  title: "Yono Games List 2026 – All Yono Apps APK Download",
   h1: "Yono Games — All Yono Games List",
-  description: `All Yono games in one list: ${directoryStats.listed} Yono apps (rummy, slots, spin, 777) with sign-up bonus, minimum withdrawal and ratings, plus a Yono games APK download and install guide.`,
-  intro: `An independent directory of ${directoryStats.listed} Yono-related gaming apps. Browse the list by category, and use our guide to download and install an APK safely. We don’t host APK files or work for any app operator.`,
+  description: `All ${directoryStats.listed} Yono games in one list – rummy, slots, spin & 777 apps with sign-up bonus, ₹100 min. withdrawal and one-tap APK download for Android.`,
+  intro: `An independent directory of ${directoryStats.listed} Yono-related gaming apps. Browse the list by category, and use our guide to download and install an APK safely. We don’t work for any app operator.`,
 };
 
 export function directoryStatusSentence(): string {
@@ -52,29 +52,29 @@ const listingCount = (id: string) => getListing(id)?.apps.length ?? 0;
 /** Keyed by listing id: category ids plus name-collection ids such as "777". */
 export const categoryCopy: Record<string, CategoryCopy> = {
   rummy: {
-    title: "Yono Rummy Apps — List of Rummy Games",
-    description: `${listingCount("rummy")} Yono rummy apps listed by name, with what to check in a rummy app before you play. Independent directory; no APK files hosted.`,
+    title: "Yono Rummy Apps List 2026 – Rummy APK Download",
+    description: `All ${listingCount("rummy")} Yono rummy apps in one list with sign-up bonus, minimum withdrawal and APK download for Android. Compare rummy games and install safely.`,
     heading: "Yono Rummy Apps",
     intro: `These ${listingCount("rummy")} listings have “Rummy” in their name. The category comes from the name alone: we haven’t confirmed which rummy formats, if any, each app actually offers, or who publishes it.`,
     contentUpdated: "2026-10-21",
   },
   slots: {
     title: "Yono Slots Apps — List of Slots Games",
-    description: `${listingCount("slots")} Yono slots apps listed by name, with what to check in a slots game before you play. Independent directory; no APK files hosted.`,
+    description: `${listingCount("slots")} Yono slots apps listed by name, with what to check in a slots game before you play. Independent directory.`,
     heading: "Yono Slots Apps",
     intro: `These ${listingCount("slots")} listings have “Slots” in their name. A slots name can belong to a single reel game, a lobby of several games or just a download page; we haven’t confirmed which applies to each listing.`,
     contentUpdated: "2026-10-21",
   },
   spin: {
     title: "Yono Spin Games — List of Spin Apps",
-    description: `${listingCount("spin")} Yono spin games listed by name, with what “spin” can mean and what to check before you play. Independent directory; no APK files hosted.`,
+    description: `${listingCount("spin")} Yono spin games listed by name, with what “spin” can mean and what to check before you play. Independent directory.`,
     heading: "Yono Spin Games",
     intro: `These ${listingCount("spin")} listings have “Spin” in their name. “Spin” can describe slot reels, a prize wheel or just branding, so the name alone doesn’t tell you which kind of game each one is.`,
     contentUpdated: "2026-10-21",
   },
   "777": {
     title: "Yono 777 Games — List of 777 Apps",
-    description: `${listingCount("777")} Yono 777 games listed by name across categories, with what the “777” label does and doesn’t tell you. Independent directory; no APK files hosted.`,
+    description: `${listingCount("777")} Yono 777 games listed by name across categories, with what the “777” label does and doesn’t tell you. Independent directory.`,
     heading: "Yono 777 Games",
     intro: `These ${listingCount("777")} listings have “777” in their name. “777” is a common slot-machine symbol, but here it is only part of each name; it doesn’t confirm a game type, a publisher or any link between these apps.`,
     contentUpdated: "2026-10-21",
@@ -196,7 +196,7 @@ export const privacyCopy = {
 };
 export const termsCopy = {
   title: "Terms of Use",
-  description: `Terms for using ${site.name}, an independent Yono games directory: information is general guidance, we host no APK files, and external sites have their own terms.`,
+  description: `Terms for using ${site.name}, an independent Yono games directory: information is general guidance, downloads are at your own risk, and external sites have their own terms.`,
 };
 
 export const newAppsCopy = {
@@ -235,12 +235,67 @@ export function androidInstallSteps(name: string): string[] {
   ];
 }
 
+/**
+ * Hand-written meta title and description for the highest-traffic app pages, keyed by slug.
+ * Titles are used as-is (no " | Yono Game APK" suffix) to stay within ~60 characters.
+ */
+export const appMetaOverrides: Record<string, { title: string; description: string }> = {
+  "inr-slots": {
+    title: "INR Slots APK Download – ₹410 Bonus | Latest 2026",
+    description:
+      "INR Slots APK download for Android: ₹410 sign-up bonus, ₹100 minimum withdrawal, how to play slots and a step-by-step install guide. Download INR Slots now.",
+  },
+  "yes-spin": {
+    title: "Yes Spin APK Download – ₹33 Bonus | Latest 2026",
+    description:
+      "Download Yes Spin APK for Android: ₹33 sign-up bonus, ₹100 minimum withdrawal, how the spin games work and how to install the app safely in a few taps.",
+  },
+  "yono-app": {
+    title: "Yono App Download APK – ₹500 Bonus | Yono Games 2026",
+    description:
+      "Yono App APK download for Android: ₹500 sign-up bonus, ₹100 minimum withdrawal, how to play and a simple step-by-step install and login guide.",
+  },
+  "ever-777": {
+    title: "Ever 777 APK Download – ₹38 Bonus | Latest 2026",
+    description:
+      "Download Ever 777 APK for Android: ₹38 sign-up bonus, ₹100 minimum withdrawal, how to play 777 games and a quick step-by-step install guide.",
+  },
+  "mdm-bet-app": {
+    title: "MDM Bet App Download APK – ₹39 Bonus | 2026",
+    description:
+      "MDM Bet App APK download for Android: ₹39 sign-up bonus, ₹100 minimum withdrawal, games inside the app, and how to install and log in safely.",
+  },
+  "101z-app": {
+    title: "101Z App Download APK – ₹45 Bonus | Latest 2026",
+    description:
+      "Download 101Z App APK for Android: ₹45 sign-up bonus, ₹100 minimum withdrawal, how to play and a step-by-step guide to install 101Z App safely.",
+  },
+  "my-777-apk": {
+    title: "My 777 APK Download – ₹46 Bonus | Latest 2026",
+    description:
+      "My 777 APK download for Android: ₹46 sign-up bonus, ₹100 minimum withdrawal, how to play 777 slots and how to install My 777 in a few steps.",
+  },
+  "567-slots": {
+    title: "567 Slots APK Download – ₹44 Bonus | Latest 2026",
+    description:
+      "Download 567 Slots APK for Android: ₹44 sign-up bonus, ₹100 minimum withdrawal, how the slot games work and a quick, safe install guide.",
+  },
+};
+
+export function hasCustomAppMeta(app: AppRecord): boolean {
+  return app.slug in appMetaOverrides;
+}
+
 /** Says "Download" only when the page has a real download link. */
 export function appPageTitle(app: AppRecord): string {
+  const custom = appMetaOverrides[app.slug];
+  if (custom) return custom.title;
   return `${app.name} APK${app.downloadUrl ? " Download" : ""} — What It Is, How to Play & Install`;
 }
 
 export function appPageDescription(app: AppRecord): string {
+  const custom = appMetaOverrides[app.slug];
+  if (custom) return custom.description;
   if (app.summary && isChecked(app)) return app.summary.slice(0, 160);
   const kind = app.category === "general" || app.category === "collection" ? "Yono-related" : `${categories[app.category].label.toLowerCase()}-named`;
   return `${app.name}: what this ${kind} app is, how to play, where to get it, whether it’s safe, and how to install it on Android or iPhone. Independent, unverified listing.`;
@@ -264,7 +319,7 @@ export function editorialize(text: string): string {
 
 export const disclaimerCopy = {
   title: "Disclaimer",
-  description: `${site.name} is an independent information directory: no affiliation with app operators or banks, no hosted APK files, and no verified claims.`,
+  description: `${site.name} is an independent information directory: no affiliation with app operators or banks, downloads at your own risk, and no verified claims.`,
 };
 
 export const responsibleGamingCopy = {
