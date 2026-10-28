@@ -2,7 +2,6 @@ import Link from "next/link";
 import { appPath, confusableApps } from "@/data/apps";
 import { categories } from "@/data/categories";
 import type { AppRecord } from "@/data/types";
-import { isLocalFile } from "@/lib/links";
 import { ratingSummaries, type RatingSummary } from "@/lib/ratings-store";
 import { AppIcon } from "./AppIcon";
 import { EditorScore } from "./EditorScore";
@@ -96,26 +95,10 @@ function AppRow({ app, eager, rating }: { app: AppRecord; eager: boolean; rating
           <span className="sr-only">View details for {app.name}</span>
         </Link>
       </div>
-      {app.downloadUrl ? (
-        <a
-          href={app.downloadUrl}
-          {...(isLocalFile(app.downloadUrl)
-            ? { download: true, rel: "nofollow" }
-            : {
-                target: "_blank",
-                rel: app.downloadIsAffiliate ? "sponsored nofollow noopener noreferrer" : "nofollow noopener noreferrer",
-              })}
-          className={downloadButton}
-        >
-          <DownloadIcon />
-          Download<span className="sr-only"> {app.name} APK</span>
-        </a>
-      ) : (
-        <Link href={href} prefetch={false} className={downloadButton}>
-          <DownloadIcon />
-          Download<span className="sr-only"> {app.name} APK</span>
-        </Link>
-      )}
+      <Link href={`${href}#download`} prefetch={false} className={downloadButton}>
+        <DownloadIcon />
+        Download<span className="sr-only"> {app.name} APK</span>
+      </Link>
     </article>
   );
 }
